@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Color</title>
+
+    <link rel="icon" href="./static/images/title.png" >
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./static/css/bootstrap.css">
+    <script src="./dist/script.js" defer></script>
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="row">
+            <h2 class="p-2 col-md-12 text-center text-light border border-light rounded">Which Color Is It?</h2>
+            <div class="col d-flex flex-row mt-5">
+                <div class="col-md-6 align-center p-2 d-flex flex-column justify-content-center">
+                    <h3 class="text-light text-center border border-light rounded p-2">Input Field</h3>
+                    <input class="form-control rounded text-danger" type="text" name="input" id="inputField" placeholder="Enter Hex Code, RGB, RGBa or Name*" required>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex flex-column">
+                        <h3 id="text" class="text-center border border-light rounded p-2">Color Code : 
+                            <span id="colorName"></span>
+                        </h3>
+                        <div  id="outputField" class="d-flex align-center rounded p-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer container mt-5 border border-light p-2 fixed">
+        <div class="footer-text text-light text-center h2">Designed and Developed by <code>@Sajjat Hossain</code></div>
+    </footer>
+    
+</body>
+</html>

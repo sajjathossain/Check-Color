@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
 body {
+    font-family: 'EB Garamond', sans-serif;
     height: 100%;
     width: 100%;
     background-color: #0D1117 !important;
@@ -13,7 +16,18 @@ body {
 }
 
 #outputField {
+    pointer-events: none !important;
     height: 50vh !important;
     background-color: white;
-    border: 3px solid white;
+    border: 4px solid white !important;
+}
+
+a {
+    color: orangeRed !important;
+    text-decoration: none !important;
+}
+
+a:focus, a:hover {
+    color: orangered !important;
+    text-decoration: none !important;
 }

@@ -23,11 +23,11 @@ body {
 }
 
 a {
-    color: orangeRed !important;
+    color: #5aa1e9 !important;
     text-decoration: none !important;
 }
 
 a:focus, a:hover {
-    color: orangered !important;
+    color: rgb(255, 128, 82) !important;
     text-decoration: none !important;
 }
